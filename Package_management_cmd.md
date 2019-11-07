@@ -1,5 +1,5 @@
 --------------------------------------------------------------------------
-			**Tutorial for package management**
+#Tutorial for package management
 --------------------------------------------------------------------------
 
 1. Installing and Remove solfware in Ubuntu
