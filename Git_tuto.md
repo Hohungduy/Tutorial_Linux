@@ -1,6 +1,6 @@
 
 ----------------------------------------------------------------
-          #Tutorial for git command
+#Tutorial for git command
 ----------------------------------------------------------------
 
 1. Create remote reposity in github.com to store source code pushed from local machine (laptop).
