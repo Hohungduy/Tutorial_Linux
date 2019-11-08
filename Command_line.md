@@ -65,8 +65,77 @@
 
    - Change ownership: `chown`
    
+   | Letter |  Permission  |  Value  |
+   | ------ | :----------: | :-----: | 
+   |   r    |   Read       |    4    |
+   |   w    |   Write      |    2    |
+   |   x    |   Execute    |    1    |
    chown -R username filename
 
    - Change Mode : `chmod`
 
-     
+   When listing files or directories, you see the permissios in the first column of the output: Normal file (-); Directories (d); Symbolic links (1)
+
+   | Letter |  Permission  |  Value  |
+   | ------ | :----------: | :-----: |
+   |   r    |   Read       |    4    |
+   |   w    |   Write      |    2    |
+   |   x    |   Execute    |    1    |
+
+   | Letter |  Permission  |  Value  |
+   | ------ | :----------: | :-----: | 
+   |  ---   | No permission|    0    |
+   | Letter |  Permission  |  Value  |
+   | ------ | :----------: | :-----: | 
+   |   r    |   Read       |    4    |
+   |   w    |   Write      |    2    |
+   |   x    |   Execute    |    1    |
+   |  r--   | Read only    |    4    |
+   |  rw-   |  R,W         |    6    |
+   |  rwx   |  R,W,E       |    7    |
+   |  r-x   |  R,E         |    5    |
+   |  --x   | Execute only |    1    |
+
+9. Copy file :`cp`
+
+10. Move files : `mv`
+
+11. Link Files : `ln`
+
+12. Find files : `find`
+
+13. File Compression : `gzip`
+
+14. Create a Directory : `mkdir`
+
+15. Remove a Directory : `rmdir`
+
+16. Show Present working Directory : `pwd`
+
+17. Pack the program : `tar`
+
+18. Concatenate Files : `cat`
+
+    Ex: `cat /etc/passwd`
+
+    Ex: `cat /etc/passwd /etc/group`
+
+    Ex: `cat /etc/passwd etc/group > users-and-group.txt` (Concatenate and output into file txt)
+
+    Ex: `cat /etc/hosts >> users-and-groups.txt` (Append the contents of the file)
+
+19. Display a File One Screen at a Time : more
+
+20. Disk Utiliztion : du
+
+21. Show the directory Location of a File : which
+
+22. List processes : ps (PID)
+
+23. Kill process : kill
+
+
+
+  
+
+    
