@@ -9,10 +9,13 @@ the boot load program (boot loader), Linux Kernel, file system (actual in Linux 
 
 |   UCI  |  OPKG  |   User Programs  |
 | :----- | :----: | ---------------: |
+
 |          BusyBox                   |
 | :--------------------------------: |
+
 |          uClibc                    |
 | :--------------------------------: |
+
 |          Linux kernel              |
 | :--------------------------------: |
 
