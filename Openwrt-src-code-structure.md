@@ -16,20 +16,20 @@
  - /toolchain: makefile and configuration for building the toolchain
 
  - /tools : extra tools used throughout the build process
-
+### Structure of OpenWRT source code
 ```mermaid
-graph TD;
-A[Buildroot Root dir] --> B[Tools];
-A[Buildroot Root dir] --> C[Toolchain];
-A[Buildroot Root dir] --> D[Include];
-A[Buildroot Root dir] --> E[Scripts];
-A[Buildroot Root dir] --> F[Target];
-A[Buildroot Root dir] --> G[Package];
-A[Buildroot Root dir] --> |After Built| I[bin];
-A[Buildroot Root dir] --> |After built| K[build_dir];
-A[Buildroot Root dir] --> |After built| K[staging_dir];
-A[Buildroot Root dir] --> |After built| K[dl_dir];
-A[Buildroot Root dir] --> |After built| K[feeds_dir];
+graph TD
+A[Buildroot Root dir] --> |Before built1| B[Tools]
+A[Buildroot Root dir] --> |Before built2| C[Toolchain]
+A[Buildroot Root dir] --> |Before built3| D[Include]
+A[Buildroot Root dir] --> |Before built4| E[Scripts]
+A[Buildroot Root dir] --> |Before built5| F[Target]
+A[Buildroot Root dir] --> |Before built6| G[Package]
+A[Buildroot Root dir] --> |After Built1| I[bin]
+A[Buildroot Root dir] --> |After built2| K[build_dir]
+A[Buildroot Root dir] --> |After built3| K[staging_dir]
+A[Buildroot Root dir] --> |After built4| K[dl_dir]
+A[Buildroot Root dir] --> |After built5| K[feeds_dir]
 ```
 
 
