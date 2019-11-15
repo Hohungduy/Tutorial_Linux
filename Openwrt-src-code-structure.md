@@ -20,16 +20,16 @@
 ```mermaid
 graph TD;
 A[Buildroot Root dir] --> B[Tools];
-A[Buildroot Root dir] --> C[Toolchain]
-A[Buildroot Root dir] --> D[Include]
-A[Buildroot Root dir] --> E[Scripts]
-A[Buildroot Root dir] --> F[Target]
-A[Buildroot Root dir] --> G[Package]
-A[Buildroot Root dir] --> |After Built| I[bin]
-A[Buildroot Root dir] --> |After built| K[build_dir]
-A[Buildroot Root dir] --> |After built| K[staging_dir]
-A[Buildroot Root dir] --> |After built| K[dl_dir]
-A[Buildroot Root dir] --> |After built| K[feeds_dir]
+A[Buildroot Root dir] --> C[Toolchain];
+A[Buildroot Root dir] --> D[Include];
+A[Buildroot Root dir] --> E[Scripts];
+A[Buildroot Root dir] --> F[Target];
+A[Buildroot Root dir] --> G[Package];
+A[Buildroot Root dir] --> |After Built| I[bin];
+A[Buildroot Root dir] --> |After built| K[build_dir];
+A[Buildroot Root dir] --> |After built| K[staging_dir];
+A[Buildroot Root dir] --> |After built| K[dl_dir];
+A[Buildroot Root dir] --> |After built| K[feeds_dir];
 ```
 
 
