@@ -31,7 +31,14 @@ A --> |After built3| K[staging_dir]
 A --> |After built4| K[dl_dir]
 A --> |After built5| K[feeds_dir]
 ```
-
+```mermaid
+graph TD
+A[Christmas] -->|Get money| B(Go shopping)
+B --> C{Let me think}
+C -->|One| D[Laptop]
+C -->|Two| E[iPhone]
+C -->|Three| F[Car]
+```
 
 
 
