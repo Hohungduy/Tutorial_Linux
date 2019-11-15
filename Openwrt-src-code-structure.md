@@ -33,7 +33,7 @@ the C library here.
 
  - feeds: It contains other module which is not the main package.
 
-## The process of OpenWRT image building (step by step):
+## **The process of OpenWRT image building (step by step):**
 
 1. Download the cross-compilation tools, kernel headers,etc,....
 
@@ -47,7 +47,15 @@ the C library here.
 
 6. Install the user-space packages to the root filesystem and compress the whole root file system with suitalbe format. The result firmware image is generated in bin/.
 
-##
+## **Understanding patches and quilt in OpenWRT system **
+
+ - Patch is a small text document containing a delta of changes between two different versions of source tree. Patches are created with the diff program.
+
+ - To correctly apply a patch, you need to know what base it was generated from and what new versionthe patch will change the source tree into. These should both be present in the patch file metadata or be possible to deduce from the filename.
+
+ - Apply or revert patch in common Linux distro ( patch program). Apply or patch in OpenWRT (using quilt).
+
+
 
 
 
