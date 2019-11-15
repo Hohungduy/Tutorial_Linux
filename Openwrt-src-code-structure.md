@@ -40,6 +40,13 @@ C -->|Two| E[iPhone]
 C -->|Three| F[Car]
 ```
 
+```mermaid
+sequenceDiagram
+loop every day
+    Alice->>John: Hello John, how are you?
+    John-->>Alice: Great!
+end
+```
 
 
 
