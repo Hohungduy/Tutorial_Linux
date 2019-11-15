@@ -9,9 +9,7 @@
 
  - /include: Makefile configurations file
 
- - /package: Main packages makefile and configuration (patches). The OpenWRT Makefile has its own syntax, different from the conventional 
-
-Makefile of Linux make tool.
+ - /package: Main packages makefile and configuration (patches). The OpenWRT Makefile has its own syntax, different from the conventional Makefile of Linux make tool.
 
  - /scripts: extra scripts through build process (and Openwrt package management)
 
