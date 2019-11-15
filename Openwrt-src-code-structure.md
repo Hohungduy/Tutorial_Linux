@@ -47,7 +47,7 @@ the C library here.
 
 6. Install the user-space packages to the root filesystem and compress the whole root file system with suitalbe format. The result firmware image is generated in bin/.
 
-##**Understanding patches and quilt in OpenWRT system**
+## **Understanding patches and quilt in OpenWRT system**
 
  - Patch is a small text document containing a delta of changes between two different versions of source tree. Patches are created with the diff program.
 
