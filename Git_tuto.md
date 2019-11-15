@@ -87,7 +87,13 @@
 
    git clone username@remote_address:/path/repository
 
- 
+**
+** To rememmber username and password, use command:
+   
+   `git config credential.helper store`
+
+  After that, we push and enter username and password and it will remmenber your user name and password.
+**
 ----------------------------------------------------------------
 Author: Duy Ho
 Email : duyhohung.work@gmail.com
