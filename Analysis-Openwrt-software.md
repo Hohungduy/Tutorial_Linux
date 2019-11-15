@@ -8,6 +8,7 @@ OpenWRT is a Linux release version used in embedded system. OpenWRT has four par
 the boot load program (boot loader), Linux Kernel, file system (actual in Linux kernel), user-space application.
 
 |   UCI  |  OPKG  |   User Programs  |
+| :----- | :----: | ---------------: |
 |          BusyBox                   |
 |          uClibc                    |
 |          Linux kernel              |
@@ -27,5 +28,6 @@ the boot load program (boot loader), Linux Kernel, file system (actual in Linux 
 OpenWRt is Linux release version used for embedded device particular router, the mirror on OpenWRT
 
 |  U-Boot (512 kb) | linux kernel (5 MB) |    Rootfs (122 MB)    |
+| :--------------- | :-----------------: | --------------------: |
 
 
