@@ -79,11 +79,11 @@
 	|          1xx             | code awaiting upstream merge                |
 	|          2xx             | kernel build/config/headers patches         | 
 	|          3xx             | architecture specific patches               |
-        |          4xx             | mtd related patches (subsystem and drivers) |
+	|          4xx             | mtd related patches (subsystem and drivers) |
 	|          5xx             | filesystem related patches                  |
 	|          6xx             | generic network patches                     |
 	|          7xx             | network / phy driver patches                |
-        |          8xx             | other drivers                               |
+	|          8xx             | other drivers                               |
 	|          9xx             | uncategorized other patches                 |
 
 	- If, we has created a patches before, we just advance to this patch that needs to be edited:
