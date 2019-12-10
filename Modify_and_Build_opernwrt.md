@@ -77,8 +77,8 @@
 	| ------------------------ | :-----------------------------------------: |
 	|          0xx             | upstream backports                          |
 	|          1xx             | code awaiting upstream merge                |
-	|          2xx             | kernel build/config/headers patches         |
-        |          3xx             | architecture specific patches               |
+	|          2xx             | kernel build/config/headers patches         | 
+	|          3xx             | architecture specific patches               |
         |          4xx             | mtd related patches (subsystem and drivers) |
 	|          5xx             | filesystem related patches                  |
 	|          6xx             | generic network patches                     |
@@ -127,7 +127,7 @@
 	make package/example/{clean,compile} package/index V=s
 	```
 
-#Note: Base-file (root/etc/...) is in OpenWRT/Package. Package and feeds is in OpenWRT/packages
+# Note: Base-file (root/etc/...) is in OpenWRT/Package. Package and feeds is in OpenWRT/packages
 
 3. Adding or editting the kernel patches
 
@@ -177,5 +177,5 @@
 	make package/index
 	make target/linux/update
 	```
-#NOTE: source file of linux kernel in /build_dir/target../linux../linux.../
+# NOTE: source file of linux kernel in /build_dir/target../linux../linux.../
 	 
